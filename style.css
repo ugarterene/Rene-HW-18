@@ -1,0 +1,140 @@
+body {
+    background-color: white;
+}
+
+h1 {
+    color: rgb(223,196,197,255);
+    margin: 8px;
+}
+
+#navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-left: 400px;
+    justify-content: space-evenly;
+    background-color: rgb(255, 255, 255);
+}
+
+.space {
+    height: 30px;
+}
+
+#name {
+    margin: auto;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.mainProfilepic {
+    margin-left: 50px;
+}
+
+h2 {
+    color: rgb(196,163,163,255);
+    size: 60px;
+    font-size: 120px;
+}
+
+.Space  {
+    height: 40px;
+}
+
+h3 {
+    color: rgb(175, 167, 167);
+    height: fit-content;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+section {
+    display: grid;
+    height: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one one one"
+        "two three three"
+        "two three three"
+        "four four four"
+    ;
+}
+
+header {
+    grid-area: one;
+    font-size: 30px;
+    color: rosybrown;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+p {
+    grid-area: one;
+    font-size: 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(175, 167, 167);
+    text-align: center;
+    justify-content: center;
+    padding: 2%;
+    align-content: center;
+}
+
+.work {
+    grid-area: one;
+    font-size: 30px;
+    color: rosybrown;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.skills {
+    grid-area: one;
+    font-size: 30px;
+    color: rosybrown;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+.Resume {
+    grid-area: one;
+    font-size: 30px;
+    color: rosybrown;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+}
+
+img {
+    grid-area: two;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+main {
+    grid-area: two;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+footer {
+    grid-area: four;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.theeye {
+    background-color: darkkhaki;
+}
