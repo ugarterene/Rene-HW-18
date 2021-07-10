@@ -53,7 +53,14 @@ h3 {
     margin-left: 600px;
 }
 
-section {
+header {
+    text-align: center;
+    color: rgb(196,163,163,255);
+    size: 20px;
+    font-size: 20px;
+}
+
+/* section {
     display: grid;
     height: 800px;
     grid-template-columns: 1fr 1fr 1fr;
@@ -63,7 +70,7 @@ section {
         "two three three"
         "two three three"
         "four four four"
-    ;
+    ; */
 }
 
 header {
