@@ -104,6 +104,37 @@ p {
     align-content: center;
 }
 
+.image1 {
+    grid-area: image1
+}
+.image2 {
+    grid-area: image2
+}
+.image3 {
+    grid-area: image3
+}
+.image4 {
+    grid-area: image4
+}
+
+.sskill-image {
+    background-color: rgb(255, 255, 255);
+    border: 5px solid rosybrown;
+    height: 175px;
+    width: 175px;
+}
+
+.sskills-list {
+    display: grid;
+    margin-left: 75px;
+    justify-content: space-between;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "image1 image2 image3 image4"
+    ;
+}
+
 .skills {
     grid-area: one;
     font-size: 30px;
@@ -113,6 +144,8 @@ p {
     justify-content: center;
     align-content: center;
 }
+
+.figma
 
 .Resume {
     grid-area: one;
