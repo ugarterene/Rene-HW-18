@@ -17,7 +17,7 @@ function fade() {
       }
     });
     
-    $(".toggle").click(function(){
-      $(this).find(".toggleContainer").toggleClass("active");
-      $(this).siblings(".toggle").find(".toggleContainer").removeClass("active");
-    });
+    $(".upintheair").click(function(){
+      this.animate({height:"200px",width:"300px"},1000  
+    )});
+
